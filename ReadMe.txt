@@ -2,4 +2,4 @@ Hello, in order to select the most suitable candidates, we are asking you to com
 
 https://docs.google.com/document/d/1xSqYlZAWJC5TIjsFFxjSaT2PbRXtWxlDt6n4w3x9i04/edit
 
-```npm start```
+
