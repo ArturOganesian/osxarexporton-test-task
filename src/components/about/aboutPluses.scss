@@ -1,0 +1,58 @@
+@import "../../styleVariables/variables.scss";
+@keyframes titleAnimation {
+  0% {
+    color: white;
+    transform: scale(1);
+  }
+  50% {
+    color: blue;
+    transform: scale(1.1);
+  }
+  100% {
+    color: white;
+    transform: scale(1);
+  }
+}
+
+.about-pluses-global-div {
+  display: $display;
+  flex-direction: $Column;
+  align-items: $alignItems;
+  margin-top: 80px;
+}
+
+.img-info-div {
+  display: $display;
+  justify-content: $content;
+  background-color: $fffColor;
+ 
+}
+.pluses-text {
+  display: $display;
+  width: 58%;
+  flex-direction: $rowDirection;
+  flex-wrap: $Wrap;
+  justify-content: $contentEnd;
+  padding: 15px;
+  span {
+    color: rgb(21, 221, 21);
+  }
+}
+.img-info-div {
+  img {
+    width: $imgWidth;
+    height: $imgHeight;
+  }
+}
+
+.title-pluses-div {
+  h1 {
+    width: 520px;
+    padding: 5px;
+    color: $bgColor;
+    cursor: $cursor;
+    font-size: 25px;
+    color: $fffColor;
+    animation: titleAnimation 3s infinite;
+  }
+}

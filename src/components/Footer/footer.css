@@ -1,0 +1,30 @@
+.global-footer-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 150px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: rgb(230, 224, 224);
+  height: 300px;
+  padding: 15px;
+}
+
+.footer-title h2 {
+  color: rgb(99, 99, 230);
+}
+
+.contact-footer h4 {
+  color: rgb(99, 99, 230);
+}
+
+.creator-info {
+  text-align: center;
+}
+.creator-info p {
+  font-size: 10px;
+}

@@ -1,0 +1,35 @@
+@import '../../styleVariables/variables.scss';
+@keyframes titleAnimation {
+    0% {
+      color: white;
+      transform: scale(1);
+    }
+    50% {
+      color: blue;
+      transform: scale(1.1);
+    }
+    100% {
+      color: white;
+      transform: scale(1);
+    }
+  }
+  
+.global-faq-div{
+ display: $display;
+ flex-direction: column;
+align-items: center;
+margin-top: $globalMargin;
+}
+
+.faq-title{
+    h1{
+        animation: titleAnimation 3s infinite;
+    }
+}
+
+.questions-answers{
+   border:  3px  double #0074e4;
+   padding: 25px;
+  
+
+}

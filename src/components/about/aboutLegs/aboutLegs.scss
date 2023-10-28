@@ -1,0 +1,66 @@
+@import "../../../styleVariables/variables.scss";
+
+@keyframes titleAnimation {
+  0% {
+    color: white;
+    transform: scale(1);
+  }
+  50% {
+    color: blue;
+    transform: scale(1.1);
+  }
+  100% {
+    color: white;
+    transform: scale(1);
+  }
+}
+
+.about-legs-global-div {
+  display: $display;
+  flex-direction: $Column;
+  align-items: $alignItems;
+  margin-top: 80px;
+}
+
+.legs-info-title {
+  h1 {
+    width: 570px;
+    padding: 5px;
+    color: $bgColor;
+    cursor: $cursor;
+    font-size: 25px;
+    color: $fffColor;
+    animation: titleAnimation 3s infinite;
+  }
+}
+
+.legs-info-img {
+  display: $display;
+  flex-direction: column;
+  align-items: $alignItems;
+  justify-content: $content;
+  width: 89%;
+
+  .legs-text-div {
+    margin-top: 50px;
+    span {
+      color: rgb(21, 221, 21);
+    }
+  }
+}
+
+.attention-div {
+  text-align: center;
+  padding: 25px;
+  animation: titleAnimation 3s infinite;
+
+  span {
+    font-size: 25px;
+  }
+}
+.img-legs-div {
+  img {
+    width: 1100px;
+    height: 800px;
+  }
+}

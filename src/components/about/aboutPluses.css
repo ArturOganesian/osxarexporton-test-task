@@ -1,0 +1,92 @@
+@-webkit-keyframes titleAnimation {
+  0% {
+    color: white;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    color: blue;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    color: white;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes titleAnimation {
+  0% {
+    color: white;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    color: blue;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    color: white;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+.about-pluses-global-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 80px;
+}
+
+.img-info-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #fff;
+}
+
+.pluses-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 58%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 15px;
+}
+.pluses-text span {
+  color: rgb(21, 221, 21);
+}
+
+.img-info-div img {
+  width: 350px;
+  height: 350px;
+}
+
+.title-pluses-div h1 {
+  width: 520px;
+  padding: 5px;
+  color: rgb(99, 99, 230);
+  cursor: pointer;
+  font-size: 25px;
+  color: #fff;
+  -webkit-animation: titleAnimation 3s infinite;
+          animation: titleAnimation 3s infinite;
+}

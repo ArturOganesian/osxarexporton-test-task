@@ -1,0 +1,58 @@
+@import "../../styleVariables/variables.scss";
+@keyframes titleAnimation {
+  0% {
+    color: white;
+    transform: scale(1);
+  }
+  50% {
+    color: blue;
+    transform: scale(1.1);
+  }
+  100% {
+    color: white;
+    transform: scale(1);
+  }
+}
+
+.global-first-body-div {
+  display: $display;
+  flex-direction: column;
+  align-items: center;
+  margin-top: $globalMargin;
+}
+
+.product-first-show {
+  display: $display;
+  justify-content: $content;
+  background-color: $fffColor;
+
+}
+.title {
+  width: 250px;
+  padding: 5px;
+  color: $bgColor;
+  cursor: $cursor;
+  font-size: 25px;
+  color: $fffColor;
+  animation: titleAnimation 3s infinite;
+}
+
+.product-first-show {
+  img {
+    width: $imgWidth;
+    height: $imgHeight;
+  }
+}
+
+.about-product {
+  display: $display;
+  width: 55%;
+  flex-direction: $rowDirection;
+  flex-wrap: $Wrap;
+  justify-content: $contentEnd;
+  padding: 15px;
+
+  h3 {
+    color: $bgColor;
+  }
+}

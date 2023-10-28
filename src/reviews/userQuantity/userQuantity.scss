@@ -1,0 +1,42 @@
+@import "../../styleVariables/variables.scss";
+
+@keyframes titleAnimation {
+  0% {
+    color: white;
+    transform: scale(1);
+  }
+  50% {
+    color: blue;
+    transform: scale(1.1);
+  }
+  100% {
+    color: white;
+    transform: scale(1);
+  }
+}
+
+.user-quantity-global-div {
+  margin-top: $globalMargin;
+  display: $display;
+  flex-direction: $Column;
+  align-items: $alignItems;
+}
+
+.quantity-value {
+  padding: 50px;
+
+  span {
+    font-size: 72px;
+    color: $bgColor;
+    border: 3px dotted #0074e4;
+    color: #0074e4;
+    background: #ffffff;
+  }
+}
+
+.quantity-text {
+  span {
+    animation: titleAnimation 3s infinite;
+    font-size: 25px;
+  }
+}

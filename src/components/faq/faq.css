@@ -1,0 +1,57 @@
+@-webkit-keyframes titleAnimation {
+  0% {
+    color: white;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    color: blue;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    color: white;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes titleAnimation {
+  0% {
+    color: white;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    color: blue;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    color: white;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+.global-faq-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 80px;
+}
+
+.faq-title h1 {
+  -webkit-animation: titleAnimation 3s infinite;
+          animation: titleAnimation 3s infinite;
+}
+
+.questions-answers {
+  border: 3px double #0074e4;
+  padding: 25px;
+}

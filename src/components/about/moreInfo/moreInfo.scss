@@ -1,0 +1,54 @@
+@import "../../../styleVariables/variables.scss";
+
+@keyframes titleAnimation {
+  0% {
+    color: white;
+    transform: scale(1);
+  }
+  50% {
+    color: blue;
+    transform: scale(1.1);
+  }
+  100% {
+    color: white;
+    transform: scale(1);
+  }
+}
+.global-more-info-div {
+  display: $display;
+  flex-direction: $Column;
+  align-items: $alignItems;
+  margin-top: 55px;
+}
+
+.more-info-title {
+  h1 {
+    animation: titleAnimation 3s infinite;
+  }
+}
+
+.more-info-text {
+  p {
+    width: 40%;
+  }
+}
+
+.more-info-text {
+  display: $display;
+  justify-content: $alignItems;
+}
+
+.more-info-list {
+  span {
+    color: rgb(21, 221, 21);
+  }
+}
+.more-info-imgs {
+  display: $display;
+  justify-content: space-around;
+  margin-top: 25px;
+  img {
+    width: $imgWidth;
+    height: $imgHeight;
+  }
+}

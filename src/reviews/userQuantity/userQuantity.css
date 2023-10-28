@@ -1,0 +1,64 @@
+@-webkit-keyframes titleAnimation {
+  0% {
+    color: white;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    color: blue;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    color: white;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes titleAnimation {
+  0% {
+    color: white;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    color: blue;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    color: white;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+.user-quantity-global-div {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.quantity-value {
+  padding: 50px;
+}
+.quantity-value span {
+  font-size: 72px;
+  color: rgb(99, 99, 230);
+  border: 3px dotted #0074e4;
+  color: #0074e4;
+  background: #ffffff;
+}
+
+.quantity-text span {
+  -webkit-animation: titleAnimation 3s infinite;
+          animation: titleAnimation 3s infinite;
+  font-size: 25px;
+}

@@ -1,0 +1,42 @@
+@import "../styleVariables/variables.scss";
+@keyframes titleAnimation {
+  0% {
+    color: white;
+    transform: scale(1);
+  }
+  50% {
+    color: blue;
+    transform: scale(1.1);
+  }
+  100% {
+    color: white;
+    transform: scale(1);
+  }
+}
+
+.reviews-global-div {
+  margin-top: $globalMargin;
+  display: flex;
+  flex-direction: $Column;
+  align-items: $alignItems;
+}
+
+.reviews-title {
+  width: $imgWidth;
+  h2 {
+    animation: titleAnimation 3s infinite;
+  }
+}
+.review {
+  width: 320px;
+  background-color: gainsboro;
+  padding: 17px;
+  border-radius: 26px;
+  margin-top: 22px;
+}
+
+.reviews-container {
+  display: $display;
+  flex-wrap: $Wrap;
+  justify-content: $content;
+}

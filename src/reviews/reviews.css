@@ -1,0 +1,73 @@
+@-webkit-keyframes titleAnimation {
+  0% {
+    color: white;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    color: blue;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    color: white;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes titleAnimation {
+  0% {
+    color: white;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    color: blue;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    color: white;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+.reviews-global-div {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reviews-title {
+  width: 350px;
+}
+.reviews-title h2 {
+  -webkit-animation: titleAnimation 3s infinite;
+          animation: titleAnimation 3s infinite;
+}
+
+.review {
+  width: 320px;
+  background-color: gainsboro;
+  padding: 17px;
+  border-radius: 26px;
+  margin-top: 22px;
+}
+
+.reviews-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}

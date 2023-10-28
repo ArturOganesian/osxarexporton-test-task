@@ -1,0 +1,30 @@
+@import '../../styleVariables/variables.scss';
+
+.global-footer-div{
+    display: $display;
+    margin-top: 150px;
+    flex-direction: row;
+    justify-content: $content;
+    background-color: rgb(230, 224, 224);
+    height: 300px;
+    padding: 15px;
+}
+
+.footer-title{
+    h2{
+        color: $bgColor;
+    }
+}
+
+.contact-footer{
+    h4{
+        color: $bgColor;
+    }
+}
+
+.creator-info{
+    text-align: center;
+    p{
+        font-size: 10px;
+    }
+}
