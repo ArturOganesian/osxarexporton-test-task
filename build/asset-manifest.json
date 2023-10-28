@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/osxarexporton-test-task/static/css/main.51767f52.css",
+    "main.js": "/osxarexporton-test-task/static/js/main.c0aedb09.js",
+    "index.html": "/osxarexporton-test-task/index.html",
+    "main.51767f52.css.map": "/osxarexporton-test-task/static/css/main.51767f52.css.map",
+    "main.c0aedb09.js.map": "/osxarexporton-test-task/static/js/main.c0aedb09.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51767f52.css",
+    "static/js/main.c0aedb09.js"
+  ]
+}
