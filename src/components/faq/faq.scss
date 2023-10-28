@@ -1,35 +1,36 @@
-@import '../../styleVariables/variables.scss';
+@import "../../styleVariables/variables.scss";
 @keyframes titleAnimation {
-    0% {
-      color: white;
-      transform: scale(1);
-    }
-    50% {
-      color: blue;
-      transform: scale(1.1);
-    }
-    100% {
-      color: white;
-      transform: scale(1);
-    }
+  0% {
+    color: white;
+    transform: scale(1);
   }
-  
-.global-faq-div{
- display: $display;
- flex-direction: column;
-align-items: center;
-margin-top: $globalMargin;
+  50% {
+    color: blue;
+    transform: scale(1.1);
+  }
+  100% {
+    color: white;
+    transform: scale(1);
+  }
 }
 
-.faq-title{
-    h1{
-        animation: titleAnimation 3s infinite;
-    }
+.global-faq-div {
+  display: $display;
+  flex-direction: $Column;
+  align-items: $alignItems;
+  margin-top: $globalMargin;
+  @media (max-width: 768px) {
+    margin-left: 40px;
+  }
 }
 
-.questions-answers{
-   border:  3px  double #0074e4;
-   padding: 25px;
-  
+.faq-title {
+  h1 {
+    animation: titleAnimation 3s infinite;
+  }
+}
 
+.questions-answers {
+  border: 3px double #0074e4;
+  padding: 25px;
 }

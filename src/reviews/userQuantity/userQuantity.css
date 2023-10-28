@@ -45,6 +45,12 @@
       -ms-flex-align: center;
           align-items: center;
 }
+@media (max-width: 768px) {
+  .user-quantity-global-div {
+    text-align: center;
+    margin-left: 40px;
+  }
+}
 
 .quantity-value {
   padding: 50px;

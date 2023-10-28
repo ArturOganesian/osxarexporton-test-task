@@ -16,7 +16,7 @@
 
 .reviews-global-div {
   margin-top: $globalMargin;
-  display: flex;
+  display: $display;
   flex-direction: $Column;
   align-items: $alignItems;
 }
@@ -26,6 +26,10 @@
   h2 {
     animation: titleAnimation 3s infinite;
   }
+  @media (max-width: 768px) {
+    text-align: end;
+    width: 100%;
+  }
 }
 .review {
   width: 320px;
@@ -33,6 +37,9 @@
   padding: 17px;
   border-radius: 26px;
   margin-top: 22px;
+  @media (max-width: 768px) {
+    margin-left: 35px;
+  }
 }
 
 .reviews-container {

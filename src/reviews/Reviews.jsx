@@ -1,4 +1,4 @@
-import { Avatar, } from "antd";
+import { Avatar } from "antd";
 import { StarOutlined, StarFilled } from "@ant-design/icons";
 import "./reviews.css";
 import UserQunatity from "./userQuantity/UserQuantity";

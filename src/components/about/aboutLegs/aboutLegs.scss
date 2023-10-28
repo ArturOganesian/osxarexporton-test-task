@@ -20,6 +20,11 @@
   flex-direction: $Column;
   align-items: $alignItems;
   margin-top: 80px;
+
+  @media (max-width: 768px) {
+    margin-top: 40px;
+    flex-direction: $Column;
+  }
 }
 
 .legs-info-title {
@@ -31,15 +36,26 @@
     font-size: 25px;
     color: $fffColor;
     animation: titleAnimation 3s infinite;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      font-size: 20px;
+      text-align: $alignItems;
+    }
   }
 }
 
 .legs-info-img {
   display: $display;
-  flex-direction: column;
+  flex-direction: $Column;
   align-items: $alignItems;
   justify-content: $content;
   width: 89%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-left: 35px;
+  }
 
   .legs-text-div {
     margin-top: 50px;
@@ -50,17 +66,27 @@
 }
 
 .attention-div {
-  text-align: center;
+  text-align: $alignItems;
   padding: 25px;
   animation: titleAnimation 3s infinite;
 
   span {
     font-size: 25px;
   }
+
+  @media (max-width: 768px) {
+    padding: 10px;
+  }
 }
+
 .img-legs-div {
   img {
     width: 1100px;
     height: 800px;
+
+    @media (max-width: 768px) {
+      width: 300px;
+      height: auto;
+    }
   }
 }

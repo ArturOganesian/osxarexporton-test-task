@@ -13,13 +13,29 @@
   height: 300px;
   padding: 15px;
 }
+@media (max-width: 768px) {
+  .global-footer-div {
+    width: 100%;
+  }
+}
 
 .footer-title h2 {
   color: rgb(99, 99, 230);
 }
+@media (max-width: 768px) {
+  .footer-title h2 {
+    padding: 15px;
+  }
+}
 
 .contact-footer h4 {
   color: rgb(99, 99, 230);
+}
+@media (max-width: 768px) {
+  .contact-footer {
+    padding: 15px;
+    border-left: 1px solid black;
+  }
 }
 
 .creator-info {

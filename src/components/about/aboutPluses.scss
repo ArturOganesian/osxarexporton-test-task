@@ -19,14 +19,25 @@
   flex-direction: $Column;
   align-items: $alignItems;
   margin-top: 80px;
+
+  @media (max-width: 768px) {
+    margin-top: 40px;
+    flex-direction: $Column;
+    width: 100%;
+  }
 }
 
 .img-info-div {
   display: $display;
   justify-content: $content;
   background-color: $fffColor;
- 
+  align-items: $alignItems;
+
+  @media (max-width: 768px) {
+    flex-direction: $Column;
+  }
 }
+
 .pluses-text {
   display: $display;
   width: 58%;
@@ -34,14 +45,26 @@
   flex-wrap: $Wrap;
   justify-content: $contentEnd;
   padding: 15px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 10px;
+  }
+
   span {
     color: rgb(21, 221, 21);
   }
 }
+
 .img-info-div {
   img {
     width: $imgWidth;
     height: $imgHeight;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      margin-left: 18px;
+    }
   }
 }
 
@@ -54,5 +77,11 @@
     font-size: 25px;
     color: $fffColor;
     animation: titleAnimation 3s infinite;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      font-size: 20px;
+      text-align: $alignItems;
+    }
   }
 }

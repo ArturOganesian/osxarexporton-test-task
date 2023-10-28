@@ -20,6 +20,10 @@
   display: $display;
   flex-direction: $Column;
   align-items: $alignItems;
+  @media (max-width: 768px) {
+    text-align: $alignItems;
+    margin-left: 40px;
+  }
 }
 
 .quantity-value {

@@ -1,14 +1,18 @@
 import "./header.css";
+import { Menu, Switch } from "antd";
 
 const Header = () => {
   return (
     <div className="header-global-div">
       <div className="header-logo">
         <p>
-          <span>Oscar</span>
-          <span>Exporton</span>
+          <a href="#top">
+            <span>Oscar</span>
+            <span>Exporton</span>
+          </a>
         </p>
       </div>
+
       <div className="navbar">
         <a className="nav-link" href="#aboutIt">
           Product
@@ -19,7 +23,7 @@ const Header = () => {
         <a className="nav-link" href="#reviews">
           reviews
         </a>
-      
+
         <a className="nav-link" href="#footer">
           Contacts
         </a>

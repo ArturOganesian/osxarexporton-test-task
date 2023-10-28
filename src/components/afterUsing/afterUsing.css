@@ -51,6 +51,12 @@
   -webkit-animation: titleAnimation 3s infinite;
           animation: titleAnimation 3s infinite;
 }
+@media (max-width: 768px) {
+  .after-us-title-div {
+    text-align: center;
+    width: 100%;
+  }
+}
 
 .after-us-animation-text {
   display: -webkit-box;
@@ -123,7 +129,6 @@
   }
 }
 .precent-animation {
-  background-color: rgb(0, 251, 255);
   padding: 12px;
   border-radius: 25px;
 }

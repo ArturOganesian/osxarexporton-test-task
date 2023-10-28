@@ -31,12 +31,10 @@ const AboutPluses = () => {
               your wellness <span>✓</span>
             </li>
             <li>
-             
               Less Swelling, More Moving: Quickly reduce swelling and boost your
               blood flow <span>✓</span>
             </li>
             <li>
-            
               Feel the Difference Instantly: Nearly all users (96.6%!) felt
               immediate relief <span>✓</span>
             </li>
@@ -45,7 +43,6 @@ const AboutPluses = () => {
               <span>✓</span>
             </li>
             <li>
-             
               Easy and Portable: Take your lightweight, easy-to-use pain relief
               wherever you go <span>✓</span>
             </li>

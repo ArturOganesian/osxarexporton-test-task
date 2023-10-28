@@ -14,7 +14,6 @@ const UserQunatity = () => {
       </div>
       <hr></hr>
       <Faq />
-     
     </>
   );
 };

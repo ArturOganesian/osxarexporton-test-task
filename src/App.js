@@ -10,7 +10,7 @@ function App() {
       <Header />
       <FirstShow />
       <AfterUsing />
-   
+
       <Footer />
     </div>
   );

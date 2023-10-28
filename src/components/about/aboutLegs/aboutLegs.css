@@ -45,6 +45,15 @@
           align-items: center;
   margin-top: 80px;
 }
+@media (max-width: 768px) {
+  .about-legs-global-div {
+    margin-top: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 
 .legs-info-title h1 {
   width: 570px;
@@ -55,6 +64,13 @@
   color: #fff;
   -webkit-animation: titleAnimation 3s infinite;
           animation: titleAnimation 3s infinite;
+}
+@media (max-width: 768px) {
+  .legs-info-title h1 {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+  }
 }
 
 .legs-info-img {
@@ -72,6 +88,12 @@
       justify-content: space-around;
   width: 89%;
 }
+@media (max-width: 768px) {
+  .legs-info-img {
+    width: 100%;
+    margin-left: 35px;
+  }
+}
 .legs-info-img .legs-text-div {
   margin-top: 50px;
 }
@@ -88,8 +110,19 @@
 .attention-div span {
   font-size: 25px;
 }
+@media (max-width: 768px) {
+  .attention-div {
+    padding: 10px;
+  }
+}
 
 .img-legs-div img {
   width: 1100px;
   height: 800px;
+}
+@media (max-width: 768px) {
+  .img-legs-div img {
+    width: 300px;
+    height: auto;
+  }
 }

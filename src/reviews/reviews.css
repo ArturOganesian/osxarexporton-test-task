@@ -53,6 +53,12 @@
   -webkit-animation: titleAnimation 3s infinite;
           animation: titleAnimation 3s infinite;
 }
+@media (max-width: 768px) {
+  .reviews-title {
+    text-align: end;
+    width: 100%;
+  }
+}
 
 .review {
   width: 320px;
@@ -60,6 +66,11 @@
   padding: 17px;
   border-radius: 26px;
   margin-top: 22px;
+}
+@media (max-width: 768px) {
+  .review {
+    margin-left: 35px;
+  }
 }
 
 .reviews-container {

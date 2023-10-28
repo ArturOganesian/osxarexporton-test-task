@@ -45,6 +45,11 @@
           align-items: center;
   margin-top: 80px;
 }
+@media (max-width: 768px) {
+  .global-faq-div {
+    margin-left: 40px;
+  }
+}
 
 .faq-title h1 {
   -webkit-animation: titleAnimation 3s infinite;
